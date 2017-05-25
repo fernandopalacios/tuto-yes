@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html lang="en" ng-app>
+<head >
+	<title >Data Binding</title >
+	<link href="../libs/bootstrap/dist/css/bootstrap.min.css"
+	      rel="stylesheet" >
+	<link href="main.css"
+	      rel="stylesheet" >
+</head >
+
+<body >
+
+<div class="container" ng-init="title='My First App'">
+	<h1>{{ title }} is {{awesome}}</h1>
+	<input class="formcontrol" type="text" ng-model="title"></input>
+	<input class="formcontrol" type="checkbox" ng-model="awesome" checked></input>
+</div >
+
+<script src="../libs/angular/angular.min.js" ></script >
+</body >
+</html >
